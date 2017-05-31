@@ -4,6 +4,8 @@ $(document).ready(function() {
 
   $(".name1").text(nameInput);
   $("#response").show();
+  $("#response").html($("#response").html().toUpperCase());
+  $('p').text($('p').text().toUpperCase());
 
 
   event.preventDefault();
